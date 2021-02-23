@@ -8,7 +8,7 @@ import { MovieService } from './movie.service';
 })
 export class AppComponent {
 
-  movies=[];
+ /* movies=[];
 
   constructor(private movieService: MovieService) {}
 
@@ -16,5 +16,5 @@ export class AppComponent {
     this.movies = this.movieService.getMovie();
     console.log(this.movies);
   }
-  
+  */
 }
